@@ -15,7 +15,7 @@ _ Análises gráficas
 
 Modifique o local do arquivo para onde você fez o download do .csv
 
-3 - Abra o seu prompt de comando e digite o seguite comando:
+3 - Abra o seu prompt de comando e digite os seguites comandos:
 
 _ cd "Caminho onde está o arquivo Início.py e a pasta Pages"
 
