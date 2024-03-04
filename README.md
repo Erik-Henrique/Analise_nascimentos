@@ -2,6 +2,7 @@
 Projeto de análise de dados sobre nascimentos no estado de Rondônia no ano de 2019.
 
 Para executar o programa:
+
 1 - Coloque o aquivo Início.py no mesmo local da pasta pages.
 
 2 - Abra os arquivos:
