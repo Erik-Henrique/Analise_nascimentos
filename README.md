@@ -1,7 +1,7 @@
 # Análise de nascimentos do SINASC RONDÔNIA (Sistema de Informação sobre Nascidos Vivos) de 2019 
 Projeto de análise de dados sobre nascimentos no estado de Rondônia no ano de 2019.
 Para executar o programa:
-1 - Coloque o aquivo Início.py no mesmo local da pasta pages.
+\n 1 - Coloque o aquivo Início.py no mesmo local da pasta pages.
 2 - Abra os arquivos:
 _ Visualizar os dados
 _ Mapa de nascimentos
