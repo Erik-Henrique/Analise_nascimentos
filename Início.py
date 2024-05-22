@@ -9,8 +9,7 @@ st.set_page_config(layout='wide',
                    page_icon='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bras%C3%A3o_de_Rond%C3%B4nia.svg/1200px-Bras%C3%A3o_de_Rond%C3%B4nia.svg.png')
 
 # Configuração da barra lateral
-st.sidebar.title("Navegação")
-selection = st.sidebar.radio("Ir para", ["Visualizar os dados", "Mapa de nascimentos", "Análises gráficas"])
+selection = st.sidebar.radio(["Visualizar os dados", "Mapa de nascimentos", "Análises gráficas"])
 
 # Dicionário para mapear seleção para o nome do módulo
 pages = {
