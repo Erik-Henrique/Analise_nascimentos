@@ -2,10 +2,26 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import importlib
 
 st.set_page_config(layout='wide',
                    page_title='SINASC RONDÔNIA',
                    page_icon='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bras%C3%A3o_de_Rond%C3%B4nia.svg/1200px-Bras%C3%A3o_de_Rond%C3%B4nia.svg.png')
+
+# Configuração da barra lateral
+st.sidebar.title("Navegação")
+selection = st.sidebar.radio("Ir para", ["Visualizar os dados", "Mapa de nascimentos", "Análises gráficas"])
+
+# Dicionário para mapear seleção para o nome do módulo
+pages = {
+  "Visualizar os dados": "Pages.1_Visualizar_os_dados",
+  "Mapa de nascimentos": "Pages.2_Mapa_de_nascimentos",
+  "Análises gráficas": "Pages.3_Análises_gráficas"
+}
+
+# Importar e renderizar a página selecionada
+module = importlib.import_module(pages[selection])
+module.app()
 
 page_bg_img = """
   <style>
