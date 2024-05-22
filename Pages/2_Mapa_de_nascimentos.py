@@ -27,7 +27,7 @@ def app():
   
   # Carregando o data frame
   DATE_COLUMN = 'dtnasc'
-  DATA_URL = (r"C:\Users\erikd\OneDrive\Área de Trabalho\Streamlit\Atividade\input_M15_SINASC_RO_2019.csv")
+  DATA_URL = (r"https://raw.githubusercontent.com/Erik-Henrique/Analise_nascimentos/main/input_M15_SINASC_RO_2019.csv")
   # Adicionando o data frame a uma variável
   data = pd.read_csv(DATA_URL)
   data.drop(1863, axis=0, inplace=True)
