@@ -16,3 +16,5 @@ pages = {
 # Importar e renderizar a página selecionada
 module = importlib.import_module(pages[selection])
 module.app()
+
+st.write('Olá')
