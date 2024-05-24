@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import importlib
+import config 
 
 # Configuração da barra lateral
 selection = st.sidebar.radio("Páginas:", ["Visualizar os dados", "Mapa de nascimentos", "Análises gráficas"])
