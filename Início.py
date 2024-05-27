@@ -3,7 +3,7 @@ import importlib
 import config 
 
 # Configuração da barra lateral
-selection = st.sidebar.radio("Páginas:", ["Início", "Visualizar os dados", "Mapa de nascimentos", "Análises gráficas"],index=None)
+selection = st.sidebar.radio("Páginas:", ["Início", "Visualizar os dados", "Mapa de nascimentos", "Análises gráficas"])
 
 # Dicionário para mapear seleção para o nome do módulo
 pages = {
