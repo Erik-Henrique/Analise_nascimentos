@@ -1,6 +1,5 @@
 import streamlit as st
 import importlib
-
 import config 
 
 # Configuração da barra lateral
