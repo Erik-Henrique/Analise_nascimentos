@@ -1,5 +1,6 @@
 import streamlit as st
 import importlib
+
 import config 
 
 # Configuração da barra lateral
@@ -16,3 +17,4 @@ pages = {
 # Importar e renderizar a página selecionada
 module = importlib.import_module(pages[selection])
 module.app()
+
