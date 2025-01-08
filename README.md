@@ -1,14 +1,21 @@
-# Análises dos dados de nascimentos em Rondônia-2019
+# 📊 Análises dos Dados de Nascimentos em Rondônia - 2019 
 
-Este é um projeto de análise de dados feito com um data set disponibilizado pelo sistema de saúde do estado de Rondônia com informaçãoes sobre os nascimentos que ocorreram no estado no ano de 2019. 
+Este repositório contém uma análise detalhada dos dados de nascimentos registrados no estado de Rondônia no ano de 2019. O objetivo é explorar padrões e tendências, oferecendo insights relevantes sobre os dados encontrados. 
 
 
-### Nele você irá conseguir análisar os locais onde houveram nascimentos no mapa:
-![image](https://github.com/Erik-Henrique/Analise_nascimentos/assets/150151321/d96d71d4-b23e-4e71-93b5-928a4fe315a6)
+## 🌟 Objetivo do Projeto 
+- Identificar tendências relacionadas aos nascimentos em Rondônia em 2019.
+- Analisar fatores como distribuição por gênero, idade das mães, tipo de parto, entre outros.
+- Apresentar visualizações interativas para facilitar a interpretação dos resultados. 
 
-### Visualizar os dados em forma de tabela:
-![image](https://github.com/Erik-Henrique/Analise_nascimentos/assets/150151321/2b2d51e0-1d34-424f-8552-59575919d9ae)
 
-### E também fazer análises gráficas dos dados:
-![image](https://github.com/Erik-Henrique/Analise_nascimentos/assets/150151321/d0167a98-8c7d-4c86-8777-9a3a90187787)
+## 🌐 Link para o Projeto Acesse a aplicação interativa: 
+[Análises dos Nascimentos - Rondônia 2019](https://analise-nascimentos.onrender.com/) 
 
+
+## 🛠️ Tecnologias Utilizadas 
+- **Python**: Linguagem principal para análise de dados.
+- **Pandas**: Manipulação e análise de dados.
+- **Matplotlib e Seaborn**: Criação de gráficos e visualizações.
+- **Streamlit**: Para desenvolvimento da aplicação web.
+- **Render**: Hospedagem do projeto.
