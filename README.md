@@ -1,9 +1,9 @@
 # 📊 Análises dos Dados de Nascimentos em Rondônia - 2019 
 
-Este repositório contém uma análise detalhada dos dados de nascimentos registrados no estado de Rondônia no ano de 2019. O objetivo é explorar padrões e tendências, oferecendo insights relevantes sobre os dados encontrados. 
+Este repositório contém uma análise detalhada dos dados de nascimentos registrados no estado de Rondônia no ano de 2019. 
 
 
-## 🌟 Objetivo do Projeto 
+## 🌟 Objetivos do Projeto 
 - Identificar tendências relacionadas aos nascimentos em Rondônia em 2019.
 - Analisar fatores como distribuição por gênero, idade das mães, tipo de parto, entre outros.
 - Apresentar visualizações interativas para facilitar a interpretação dos resultados. 
